@@ -1,0 +1,156 @@
+@media (max-width:1023px) {
+
+    .navigation-left {
+        margin-left: 32px;
+    }
+
+    .navigation-right {
+        margin-right: 32px;
+    }
+
+    .banner {
+        .slider {
+            height: 367px;
+            margin-bottom: 20px;
+        }
+
+        .slider-brand {
+            margin-right: 39px;
+        }
+
+        .heading-brand {
+            font-size: 38px;
+            line-height: 46px;
+        }
+
+        .brand-slogan {
+            font-size: 24px;
+            line-height: 28px;
+        }
+    }
+
+    .project {
+        margin-bottom: 154px;
+
+        .project_1 {
+            margin-bottom: 20px;
+            margin-right: 20px;
+            margin-left: 20px;
+            gap: 20px;
+        }
+
+        .project_1-text-position {
+            left: 39px;
+            top: 59px;
+        }
+
+        .project_2-img {
+            margin-left: 20px;
+            margin-right: 20px;
+            object-fit: cover;
+            object-position: center;
+            height: 115px;
+        }
+
+        .project_2-text-position {
+            top: 33px;
+            left: 288px;
+        }
+    }
+
+    .items {
+        .item-title {
+            margin-bottom: 3px;
+        }
+
+        .item-heading {
+            margin-bottom: 72px;
+        }
+
+        .card-box {
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .button-all_product {
+            margin-top: 32px;
+            margin-bottom: 65px;
+        }
+    }
+
+    .article-cardbox {
+        flex-direction: column;
+        gap: 48px;
+        padding-top: 48px;
+        padding-bottom: 64px;
+
+        .article-card {
+            padding-top: 0;
+            padding-bottom: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    footer {
+        .info-box {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .info-img {
+            padding-bottom: 30px;
+            padding-top: 64px;
+        }
+
+        .info-text {
+            padding-bottom: 48px;
+        }
+
+        .subscribe-title {
+            padding-top: 0;
+            padding-bottom: 27px;
+        }
+
+        .subscribe-form {
+            padding-bottom: 140px;
+        }
+
+        .copyright {
+            margin-left: 32px;
+        }
+
+        .social_network {
+            margin-right: 32px;
+        }
+    }
+
+    .page {
+        padding-left: 16px;
+        align-items: center;
+        padding-right: 16px;
+        flex-direction: column;
+        display: flex;
+        gap: 32px;
+        padding-top: 24px;
+        padding-bottom: 46px;
+    }
+
+    .filter {
+        margin-top: 24px;
+        margin-bottom: 40px;
+    }
+
+    .items {
+        .card-box {
+            gap: 16px;
+        }
+    }
+
+    .pages-nav {
+        margin-top: 40px;
+        margin-bottom: 63px;
+    }
+
+}

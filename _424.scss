@@ -1,0 +1,152 @@
+@media (max-width:426px) {
+    header {
+        .navigation-left {
+            margin-left: 16px;
+        }
+
+        .navigation-right {
+            margin-right: 16px;
+        }
+
+        .user,
+        .buy {
+            display: none;
+        }
+    }
+
+    .banner {
+        .slider {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 64px;
+        }
+
+        .slider-brand {
+            display: none;
+        }
+    }
+
+    .project {
+        margin-bottom: 64px;
+
+        .project_1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 32px;
+            margin-bottom: 32px;
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        .project-product {
+            margin-left: 16px;
+            margin-right: 16px;
+        }
+
+        .project_1-text-position {
+            left: 94px;
+            top: 98px;
+        }
+
+        .project_2-img {
+            margin-left: 0;
+            margin-right: 0;
+            height: 111px;
+        }
+
+        .project_2-text-position {
+            top: 30px;
+            left: 92px;
+        }
+    }
+
+    .items {
+        .item-heading {
+            margin-bottom: 64px;
+        }
+
+        .card-box {
+            gap: 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card {
+            margin-left: 6px;
+            margin-right: 6px;
+        }
+
+        .button-all_product {
+            margin-top: 40px;
+            margin-bottom: 96px;
+        }
+    }
+
+    .article-cardbox {
+        gap: 46px;
+        padding-bottom: 81px;
+    }
+
+    footer {
+        .info-text {
+            padding-bottom: 60px;
+        }
+
+        .subscribe-title {
+            padding-bottom: 22px;
+        }
+
+        .subscribe-form {
+            padding-bottom: 110px;
+        }
+
+        .footer-copyright {
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+
+        .social_network {
+            margin-right: 0;
+            padding-top: 43px;
+            padding-bottom: 40px;
+        }
+
+        .copyright-text {
+            width: 100%;
+            padding-top: 0;
+            padding-bottom: 9px;
+            text-align: center;
+        }
+    }
+
+    .filter {
+        gap: 60px;
+        margin-bottom: 32px;
+
+        .filter-display {
+            display: none;
+        }
+
+        .filter-details {
+            width: 43px;
+        }
+
+        .summary-filter-after {
+            padding-left: 6px;
+            width: 37px;
+            height: 25px;
+
+        }
+
+        .details-filter {
+            padding: 0;
+        }
+
+        .filter-sort {
+            margin-top: 2px;
+        }
+    }
+}
